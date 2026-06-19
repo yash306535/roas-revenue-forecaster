@@ -15,7 +15,11 @@ Predict **revenue** and **ROAS** as probabilistic ranges (P10 / P50 / P90) acros
 ![OpenAI](https://img.shields.io/badge/LLM-OpenAI-412991?logo=openai&logoColor=white)
 ![Status](https://img.shields.io/badge/status-MVP-success)
 
-**🔗 [Live Demo](https://your-app.streamlit.app)** · **👥 Team BrainBytes**
+<br/>
+
+[![Open Live Demo](https://img.shields.io/badge/▶%20Open%20Live%20Demo-brainbytes--roas.streamlit.app-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://brainbytes-roas.streamlit.app/)
+
+**👥 Team BrainBytes**
 
 </div>
 
@@ -31,7 +35,11 @@ summaries** — turning retrospective reporting into forward-looking decision su
 
 <!-- dashboard screenshot -->
 <div align="center">
+<a href="https://brainbytes-roas.streamlit.app/">
 <img src="docs/assets/dashboard.png" alt="Forecast dashboard" width="90%"/>
+</a>
+<br/>
+<sub>👆 Click to open the live app</sub>
 </div>
 
 ---
