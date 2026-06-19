@@ -1,7 +1,15 @@
 # Core pipeline dependencies (pinned for reproducible unpickling).
 # Python 3.11
+# These are the ONLY packages run.sh / the scored pipeline actually imports.
 pandas==2.3.3
 numpy==2.4.6
 scikit-learn==1.9.0
 joblib==1.5.3
 pyarrow==24.0.0
+
+# Demo-only dependencies (used by the hosted Streamlit app + LLM insights).
+# Not imported by run.sh; safe for the scored pipeline (installed, never called).
+streamlit==1.41.1
+plotly==5.24.1
+python-dotenv==1.0.1
+openai==1.59.6
