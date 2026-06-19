@@ -12,9 +12,11 @@
 | Frontend / demo | Streamlit + Plotly |
 | LLM integration | OpenAI API (via `openai`), config via `python-dotenv` |
 
-Two dependency sets are kept separate on purpose:
-- `requirements.txt` — minimal, for the **scored** pipeline (no internet, no LLM).
-- `requirements-app.txt` — adds Streamlit / Plotly / OpenAI for the **demo**.
+Dependencies are pinned in a single `requirements.txt` for reproducible installs
+(and so the hosted Streamlit app builds from one file). The **scored pipeline
+imports only the core subset** — pandas, numpy, scikit-learn, joblib, pyarrow —
+and makes no network calls at run time. The remaining packages (Streamlit,
+Plotly, OpenAI, python-dotenv) are used only by the interactive demo.
 
 ## Two execution paths
 
