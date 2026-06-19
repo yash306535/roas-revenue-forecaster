@@ -1,0 +1,20 @@
+# generated artifacts
+features.parquet
+output/
+__pycache__/
+*.pyc
+
+# secrets (never commit API keys)
+.env
+
+# local exploration
+datasets/
+
+# OS noise
+.DS_Store
+
+# NOTE: pickle/model.pkl is intentionally NOT ignored -- it MUST be committed.
+
+# NetElixir-provided documents (kept local, not republished publicly)
+docs/AIgnition Project Brief 2026.pdf
+docs/hackathon-submission-guide.pdf

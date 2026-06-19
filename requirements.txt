@@ -1,0 +1,7 @@
+# Core pipeline dependencies (pinned for reproducible unpickling).
+# Python 3.11
+pandas==2.3.3
+numpy==2.4.6
+scikit-learn==1.9.0
+joblib==1.5.3
+pyarrow==24.0.0
